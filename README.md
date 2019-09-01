@@ -7,6 +7,7 @@ NTCU Login Helper
 - Modify refresh time
 - Bypass verify code
 - Popup short cut
+- Block useless pictures
 
 ## Disclaimer
 - Use it carefully
