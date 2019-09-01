@@ -1,0 +1,37 @@
+{
+"name":"NTCU Login Helper",
+"description":"pass the check code",
+"version":"1",
+"manifest_version":2,
+ "permissions": [
+    "activeTab",
+    "tabs",
+	  "background",
+    "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+	//  "webNavigation", "*://*/*"
+    ],
+	"browser_action": {
+     "name": "by 0x ",
+	 "default_popup": "popup.html",
+    "default_icon": "logo.png"
+
+  },
+	"icons": {
+
+      "32": "logo.png"
+    },
+    "background": {
+           "scripts": ["block.js"],
+    	   "persistent": true
+       },
+"content_scripts": [
+    {
+    "matches": ["https://*.ntcu.edu.tw/*"],
+	  //"matches": ["<all_urls>"],
+      "js": ["test.js","time.js"]
+	 // "css":["css.css"]
+    }
+  ]
+}
