@@ -23,15 +23,19 @@
       "32": "logo.png"
     },
     "background": {
-           "scripts": ["block.js"],
-    	   "persistent": true
+      "matches": ["https://*.ntcu.edu.tw/*"],
+          "scripts": ["block.js"]
+    //	   "persistent":false
+         //true
        },
 "content_scripts": [
     {
     "matches": ["https://*.ntcu.edu.tw/*"],
 	  //"matches": ["<all_urls>"],
-      "js": ["test.js","time.js"]
-	 // "css":["css.css"]
+
+    "js": ["jq.js","test.js","time.js"],
+	  "css":["css.css"]
     }
   ]
 }
+//jq is third party lib 
