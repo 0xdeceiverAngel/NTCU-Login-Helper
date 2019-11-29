@@ -10,6 +10,7 @@ NTCU Login Helper
 - Block useless pictures
 - Remove uselsee img tag
 - Input horizontally
+- Hide checkcode input bar
 
 ## Disclaimer
 - Use it carefully
