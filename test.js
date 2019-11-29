@@ -13,6 +13,7 @@ if (document.title.indexOf("國立臺中教育大學校園資訊系統") != -1) 
     (document.head||document.documentElement).appendChild(script);
 
     $(".flex.block").remove();
+    $(".input:eq(3)").hide();
 
 
 

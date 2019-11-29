@@ -24,7 +24,7 @@
     },
     "background": {
       "matches": ["https://*.ntcu.edu.tw/*"],
-          "scripts": ["block.js"]
+          "scripts": ["jq.js","block.js"]
     //	   "persistent":false
          //true
        },
@@ -34,8 +34,9 @@
 	  //"matches": ["<all_urls>"],
 
     "js": ["jq.js","test.js","time.js"],
-	  "css":["css.css"]
+	  "css":["css.css"],
+    "run_at": "document_end"
     }
   ]
 }
-//jq is third party lib 
+//jq is third party lib
