@@ -16,3 +16,8 @@ NTCU Login Helper
 - Use it carefully
 - If have any legal issue,we are not responsible for all the responsibility.
 
+## Compare
+before
+![](https://raw.githubusercontent.com/0xdeciverAngel/NTCU-Login-Helper/master/img/before.png)
+after
+![](https://raw.githubusercontent.com/0xdeciverAngel/NTCU-Login-Helper/master/img/after.png)
